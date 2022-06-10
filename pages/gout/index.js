@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Image from 'next/image'
+import styles from './../../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -9,22 +10,18 @@ export default function Home() {
         <meta name="description" content="Proceso para rendirse" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Proceso para Rendirse
+          RINDETE
         </h1>
+
         <p className={styles.description}>
-          ¿Estas pensando en rendirte?
+          Es momento de rendirse
         </p>
-        <div className={styles.grid}>
-          <a href="./flow01" className={styles.card}>
-            <h2>SI</h2>
-          </a>
-          <a href="./go" className={styles.card}>
-            <h2>NO</h2>
-          </a>
-        </div>
+
       </main>
+
       <footer className={styles.footer}>
           Surrender Process
       </footer>
